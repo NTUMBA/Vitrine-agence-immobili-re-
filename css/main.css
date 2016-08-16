@@ -156,7 +156,7 @@ textarea {
    li,h6,h4{
      color: #9acd32;
    }
-   h5{
+   h5,.wrapper form, button{
      color:gold;
    }
    /*section=======================================================================*/
@@ -165,7 +165,7 @@ textarea {
    }
 
    /*properties====================================================================*/
-   .title,h5,li{
+   .title,h5,li,form, button{
      font-weight: bold;
    }
    /*wrapper=========================================================================*/
@@ -206,11 +206,13 @@ textarea {
      width: 95%;
      height: 30%;
      margin: 0 auto;
-     color: darkorange;
+     background-image: url(../img/eco_compatible.JPG);
+     background-size: cover;
    }
    button{
      background-color: springgreen;
    }
+
    /*footer======================================================================*/
    footer{
    background-size: cover;
