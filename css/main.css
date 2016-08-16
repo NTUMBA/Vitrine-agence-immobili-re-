@@ -102,10 +102,7 @@ textarea {
    body{
      text-align: center;
    }
-   /*wrap==========================================================================*/
-   .wrap{
-     margin-bottom: 15px;
-   }
+
    /*header=========================================================================*/
    nav,footer{
      background-image: url(../img/head.jpg);
@@ -117,12 +114,6 @@ textarea {
      height: 160px;
      background-size: cover;
    }
-
-   .title{
-     font-family: Courier monospace sans-serif ;
-     font-size: 1.5em;
-     color:yellowgreen;
-   }
    nav h2{
      padding-top: 15px;
    }
@@ -130,17 +121,7 @@ textarea {
    #logo{
      border-radius: 10%;
    }
-   .client{
-     border: 3px solid #fff;
-     border-radius: 5%;
-     padding: 0 8px;
-     color:#fff;
-     font-weight: bold;
-   }
-   .menu{
-     display: flex;
-     justify-content: space-around;
-   }
+
    /*elements========================================================================*/
 
    figure img{
@@ -163,43 +144,6 @@ textarea {
    section{
      margin-top: auto;
    }
-
-   /*properties====================================================================*/
-   .title,h5,li,form, button{
-     font-weight: bold;
-   }
-   /*wrapper=========================================================================*/
-   .wrapper{
-     margin: 0 auto;
-     width: 95%;
-     height: 90%;
-   }
-   .wrapper img{
-     width:500px;
-   }
-   .list{
-     font-size: 1.1em;
-     border: 1px solid #abb;
-     border-radius: 5%;
-     padding: 3px;
-     justify-content: space-around;
-   }
-
-   /*carousel======================================================================*/
-   .carousel-inner{
-     max-height: 90%;
-     width: 70%;
-     height: 50%;
-     margin: 0 auto;
-
-   }
-
-
-   .carousel-inner img{
-    width: 95%;
-    height:50%;
-    margin: 0 auto;
-   }
    /*achat vent location===========================================================*/
    form{
      border: 1px dotted #111;
@@ -218,6 +162,62 @@ textarea {
    background-size: cover;
    height: auto;
    }
+
+   /*properties====================================================================*/
+   /*wrap==========================================================================*/
+   .wrap{
+     margin-bottom: 15px;
+   }
+   .title,h5,li,form, button{
+     font-weight: bold;
+   }
+   .title{
+     font-family: Courier monospace sans-serif ;
+     font-size: 1.5em;
+     color:yellowgreen;
+   }
+   .client{
+     padding: 0 8px;
+     color:#fff;
+     font-weight: bold;
+   }
+   .menu{
+     display: flex;
+     justify-content: space-around;
+   }
+   .list{
+     font-size: 1.1em;
+     border: 1px solid #abb;
+     border-radius: 5%;
+     padding: 3px;
+     justify-content: space-around;
+   }
+   /*wrapper=========================================================================*/
+   .wrapper{
+     margin: 0 auto;
+     width: 95%;
+     height: 90%;
+   }
+   .wrapper img{
+     width:500px;
+   }
+
+   /*carousel======================================================================*/
+   .carousel-inner{
+     max-height: 90%;
+     width: 70%;
+     height: 50%;
+     margin: 0 auto;
+
+   }
+
+
+   .carousel-inner img{
+    width: 95%;
+    height:50%;
+    margin: 0 auto;
+   }
+
    /*pseudo-class==================================================================*/
    a:link{
      text-decoration: none;
