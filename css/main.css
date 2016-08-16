@@ -178,6 +178,13 @@ textarea {
    .wrapper img{
      width:500px;
    }
+   .list{
+     font-size: 1.5em;
+     border: 1px solid #abb;
+     border-radius: 5%;
+     padding: 5px;
+     justify-content: space-around;
+   }
 
    /*carousel======================================================================*/
    .carousel-inner{
