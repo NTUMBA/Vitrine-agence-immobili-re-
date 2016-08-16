@@ -50,8 +50,88 @@
          </ul>
       </nav>
   </header>
-      <!-- header ends here=================================================== -->
-      <!--  footer starts here========================================================-->
+  <!-- header ends here=================================================== -->
+      <figure >
+          <img src="img/place_russel.JPG" alt="entrée appartements pilotes" class="img-fluide">
+      </figure>
+      <p>
+        Sur cette fiche vous avez l'opprotunité d'exprimer de façon explicite et en toute liberté vos aspirations.
+        Nous mettons à votre disposion pour location ou achat notamment des maisons d'architecte, des appartements des lofts voire des studios.
+        Tous nos logements sont certifiés basses consomation, sans produits polluants et dangereux type amiante.
+        Ils sont neufs ou renovés avec des matériaux de qualité et respecte les normes de sécurité et d'accessibilité pour toute personne sans distinction, aucune!
+        Si, en revanche, vous souhaitez mettre en location ou vendre votre logement, nos agents  expérimentés et qualifiés seront à votre disposition afin que vous bénéficiez de toute leur expertise.
+      </p>
+      <div class="wrapper">
+
+          <form action="index.html" method="post">
+            <!--  action's attribute, web adress of a process; method, http method to browser to submit and pot value is  for communication with server -->
+            <div class="row border">
+              <fieldset>
+                <div class="col-xs-4 col-sm-4">
+                  <label for="full_name">Nom*:</label><br>
+                  <input type="text" id="name"name="Nom du client"><br>
+                  <!--  input, common and versatile element; type attribute indicate the kind of input (email, tel, press,ect.);
+                   id is not requiered but target element with css and js files, hereit will associate label to specific form controls
+                  name's attributewhen a form is submitted to server, it will be able to understand the form and then process the value appropriatly-->
+                  <label for="tel">N° de téléphone fixe*:</label>
+                  <input type="text" id="tel" name="client_phone"><br>
+                  <label for="mail">Email*:</label><br>
+                  <input type="email" id="mail" name="client email">
+                </div>
+                <div class="col-xs-3 col-sm-3 hidden-lg-up hidden-xs-down">
+                  <label for="recherche">Recherche</label><br>
+                  <textarea id="check" name="Souhait"></textarea>
+                  <!--  This element allows user to write multiple lines text and he could resize it a volo-->
+                </div>
+              <div class="col-xs-4 col-sm-4 hidden-md-down">
+                <label>LOCALISATION</label><br>
+                <label for="centre">Centre ville</label><br><input type="radio" id="centre" value="centre" name="client wish"><br>
+                <label for="peripherie">Banlieu</label><br><input type="radio" id="peripherie" value="peripherie" name="client wish"><br>
+                <label for="campagne">Campagne</label><br><input type="radio" id="campagne" value="wcampagne" name="client wish"><br>
+                <!-- radio type allows only one selection -->
+              </div>
+              <div class="col-xs-4 col-sm-3 hidden-md-down">
+                <label for="reach">GENRE</label><br>
+                <select id="reach" name="client_wish">
+                  <!--  select element allows user to pick set of predefined options-->
+                  <optgroup label="Nombre de chambre">
+                    <option value="fitness">Maison</option>
+                    <option value="tonic">Appartement</option>
+                    <option value="stamina">loft</option>
+                    <option value="weight">studio</option>
+
+                  </optgroup>
+
+                  <optgroup label="Nombre de pièces">
+                    <option value="studio">1</option>
+                    <option value="chambre d'amis">2</option>
+                    <option value="famille">3</option>
+                    <option value="famille et chambre d'amis">4</option>
+                    <option value="grande surface">Au moins 5</option>
+                  </optgroup>
+                </select><br>
+                  <label for="prix_min">PRIX min</label><br>
+                    <input type="text" id="prix_min"name="Prix min"><br>
+                  <label for="prix_max">PRIX max</label><br>
+                    <input type="text" id="prix_max"name="Prix max"><br>
+
+              </div>
+             </fieldset>
+            </div>
+
+
+              <button type="submit" class="button">Devis Gratuit</button>
+              <!--  Other values for type are: reset (automatically clear our form data when is clicked) and button (in combination with js)-->
+          </form>
+
+          </div>
+      </div>
+        <!--  wapper ends here===================================================-->
+
+
+    </div>
+    <!--  wrap ends here========================================================-->
+  <!--  footer starts here========================================================-->
   <footer>
         <h6>LES SITES DU GROUPE</h6>
       <ul>

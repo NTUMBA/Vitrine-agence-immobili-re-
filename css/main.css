@@ -201,6 +201,17 @@ textarea {
     height:50%;
     margin: 0 auto;
    }
+   /*achat vent location===========================================================*/
+   form{
+     border: 1px dotted #111;
+     width: 95%;
+     height: 30%;
+     margin: 0 auto;
+     color: darkorange;
+   }
+   button{
+     background-color: springgreen;
+   }
    /*footer======================================================================*/
    footer{
    background-size: cover;
