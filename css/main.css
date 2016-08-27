@@ -110,9 +110,10 @@ textarea {
    }
    nav{
      width: 100%;
-     position: relative;
+     position:fixed;
      height: 225px;
      background-size: cover;
+     z-index: 100;
    }
    nav h2{
      padding-top: 15px;
