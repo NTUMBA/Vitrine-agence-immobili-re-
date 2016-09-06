@@ -104,19 +104,27 @@ textarea {
    }
 
    /*header=========================================================================*/
+   header{
+     background-image: url(../img/ecole-appart.JPG);
+   }
    nav,footer{
-     background-image: url(../img/head.jpg);
      padding: 0.4rem 2rem 0.5rem 0.1rem;
    }
    nav{
      width: 100%;
-     position:fixed;
+     position:absolute;
      height: 225px;
      background-size: cover;
      z-index: 100;
    }
    nav h2{
      padding-top: 15px;
+   }
+  .coordonnee{
+     padding-top: 10rem;
+   }
+   .coordonnee li{
+     color:#ffa500 !important;
    }
 
    #logo{
@@ -160,6 +168,7 @@ textarea {
 
    /*footer======================================================================*/
    footer{
+  background-color: #263248;
    background-size: cover;
    height: auto;
    }
@@ -175,12 +184,13 @@ textarea {
    .title{
      font-family: Courier monospace sans-serif ;
      font-size: 1.5em;
-     color:yellowgreen;
    }
    .client{
      padding: 0 8px;
-     color:#fff;
      font-weight: bold;
+   }
+   .title,.client{
+     color:#ffa500 !important;
    }
    .menu{
      display: flex;
@@ -256,7 +266,11 @@ textarea {
               }
 
    }
-
+      @media (max-width: 769px) {
+        nav {
+          height:50px;
+        }
+      }
 
    /* ##################################################################### */
    /* ############################   DESKTOPS   ########################### */
