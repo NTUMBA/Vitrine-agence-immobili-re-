@@ -120,6 +120,9 @@ textarea {
    nav h2{
      padding-top: 15px;
    }
+   .navbar{
+     color: white;
+   }
   .coordonnee{
      padding-top: 10rem;
    }
@@ -136,10 +139,6 @@ textarea {
      width:100%;
      height: 200px;
    }
-
-   /*figure img{
-     width:100%;
-   }*/
    ul {
      display: flex;
       justify-content: space-between;
