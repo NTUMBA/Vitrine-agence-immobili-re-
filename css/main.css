@@ -154,7 +154,8 @@ textarea {
    }
    /*section=======================================================================*/
    section{
-     margin: 0 auto;
+    margin: 0 auto;
+    width: 95%;
    }
    /*achat vent location===========================================================*/
    form{
@@ -171,7 +172,7 @@ textarea {
 
    /*footer======================================================================*/
    footer{
-  background-color: #263248;
+   background-color: #263248;
    background-size: cover;
    height: auto;
    }
@@ -180,6 +181,7 @@ textarea {
    /*wrap==========================================================================*/
    .wrap{
      margin-bottom: 15px;
+     background-color: #F4F4F4;
    }
    .title,h5,li,form, button{
      font-weight: bold;
@@ -209,7 +211,7 @@ textarea {
    /*wrapper=========================================================================*/
    .wrapper{
      margin: 0 auto;
-     width: 70%;
+     width: 85%;
      height: 90%;
    }
    .wrapper img{
@@ -237,7 +239,7 @@ textarea {
      text-decoration: none;
    }
    a:hover{
-     color: #ffa500;background-color: #7fff00;
+     color: #ffa500;background-color: #F4F4F4;
    }
    /* ##################################################################### */
    /* ##########################   SMARTPHONE   ########################### */
